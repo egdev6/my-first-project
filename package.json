@@ -1,0 +1,35 @@
+{
+  "name": "my-first-project",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/egdev6/my-first-project",
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "gh-pages": "^0.12.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-scripts": "0.8.3"
+  },
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.0.0",
+    "prop-types": "^15.6.1",
+    "react": "^15.6.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^15.6.2",
+    "react-icons": "^2.2.1",
+    "react-redux": "^4.4.8",
+    "react-router": "^3.2.1",
+    "reactstrap": "^5.0.0-beta.2",
+    "redux": "^3.7.2",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "clear": "rimraf build",
+    "deploy": "npm run build&&gh-pages -d build"
+  }
+}

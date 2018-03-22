@@ -1,0 +1,23 @@
+.Paginator .Paginator__Pagination{
+	margin:1em 0 2em;
+	text-align: center;
+}
+
+.Paginator .Paginator__Page, .Paginator .Paginator__Page--active{
+	display:inline-block;
+	padding:.5em .75em;
+}
+
+.Paginator .Paginator__Page{
+	margin:5px;
+	background-color: #ddd;
+	color:#606060;
+	border-radius: 3px;
+}
+
+.Paginator .Paginator__Page--active{
+	margin:5px;
+	background-color: #333;
+	color:#fff;
+	border-radius: 3px;
+}
