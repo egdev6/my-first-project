@@ -1,8 +1,9 @@
 {
-  "name": "my-first-project",
+  "username":"egdev6",
+  "repo-name": "my-first-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/egdev6/my-first-project",
+  "homepage": "https://egdev6.github.io/my-first-project/.",
   "devDependencies": {
     "enzyme": "^3.3.0",
     "gh-pages": "^0.12.0",
