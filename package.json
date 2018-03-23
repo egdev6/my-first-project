@@ -2,7 +2,6 @@
   "username":"egdev6",
   "repo-name": "my-first-project",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://egdev6.github.io/my-first-project/.",
   "devDependencies": {
     "enzyme": "^3.3.0",
